@@ -27,7 +27,7 @@
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
     <servlet>
-        <servlet-name>fdfs</servlet-name>
+        <servlet-name>raidclouds</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
@@ -38,7 +38,7 @@
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>fdfs</servlet-name>
+        <servlet-name>raidclouds</servlet-name>
         <url-pattern>*.shtml</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
