@@ -11,6 +11,7 @@
 .settings
 .project
 target
+out
 **/.settings
 **/.classpath
 **/.eclipse
@@ -18,7 +19,7 @@ target
 **/target
 **/**/target
 **/bin
-**/**/target
+**/**/target/
 **/**/.classpath
 .idea
 *.iws
@@ -28,7 +29,6 @@ target
 **/.iml
 **/.iws
 **/.idea
-**/**/target
 *.versionsBackup
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
